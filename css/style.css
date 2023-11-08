@@ -1,0 +1,1265 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+
+
+  /* legenda */ 
+  /* tekst styling -line 15- */
+  /* index pagina - line 68- */ 
+  /* abonneer pagina - line 745- */ 
+  /* artikel pagina - line 861- */
+  /* fotos/logos/hero-images - line 1035- */ 
+ 
+
+
+  /*text styling */ 
+h1 { 
+
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+h2 {
+  
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+
+}
+h3 {
+
+
+       font-family: 'Raleway', sans-serif;
+       font-weight: 400;
+       line-height: 119%; /* 21.42px */
+}
+h4 {
+    
+
+    font-family:  'Libre Baskerville', serif;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 148.5%; /* 35.64px */
+    letter-spacing: -0.12px;
+
+
+
+
+}
+p {
+
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.9%; /* 28.18px */
+   
+
+
+}
+
+ /* index pagina */ 
+ 
+   /* header */ 
+header {
+    width: auto;
+    height: 100px;
+    background: #051923;
+    padding: 50px;
+
+}
+.construction-block {
+    width: 1300px;
+    margin:0 auto; 
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 10px;
+}
+
+.header-blok {
+   
+    height: 50px;
+    width: 550px;
+
+} 
+.header-blok2 {
+    
+    width: 400px;
+    height: 100px;
+    margin-left: 900px;
+
+    display: flex; 
+    gap: 19px; 
+}
+ 
+
+.zoekbak{
+    width: 300px;
+    height: 50px;
+    background: #8E8E8E;
+    border-radius: 30px;
+
+}
+.zoek-logo-1 {
+    width: 50px;
+    height: 50px;
+    
+
+
+}
+.midden {
+    margin: 0 auto;
+  display: flex;
+  margin-top: 3px; 
+}
+.header-text {
+ 
+    color: #FFEDED;
+    font-size: 45px;
+    display: flex;
+     text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      
+     font-family: 'Raleway', sans-serif;
+
+    
+}
+
+
+
+
+
+
+
+ /* hero image */ 
+
+
+.hero-image-kader {
+    width: 800px;
+    height: 257px;
+    margin:0 auto; 
+    
+ 
+
+}
+.gemaakt-door-text{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    letter-spacing: 5.185px;
+}
+.welkom-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 70px;
+
+}
+#font-size-welkom-tekst {
+
+    font-size: 80px;
+}
+
+
+
+
+
+
+ 
+/* artikel box */ 
+
+ 
+.artikel-flex-box {
+    width: 1050px;
+    height: 1160px;
+    margin:0 auto; 
+    margin-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; 
+  
+
+
+
+}
+#margin-top-236px {
+
+    margin-top: 236px;
+}
+.text-kader-1 { 
+    display: flex;
+   width: 500px;
+   height: 500px;
+   flex-direction: column;
+  justify-content: center;
+
+  
+    
+
+}
+.text-box-1{
+    display: flex;
+    width: 400px;
+    height: 100px;
+     margin-left: 20px; 
+    flex-direction: column;
+    justify-content: center;
+   
+
+
+    color: #000;
+    font-size: 22px;
+    text-align: left;
+
+}
+.text-box-2{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px; 
+
+
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+    
+
+}
+.foto-box-normal-size {
+    width: 500px;
+     height: 500px;
+     background-color: #D9D9D9;
+}
+/* hero image 2 */ 
+
+
+.hoofd-kader-hero-img2 {
+    width: 818px;
+    height: 370px;
+
+}
+.kader-hero2 {
+
+    width: 818px;
+    height: 335px;
+    border-radius: 40px;
+    position: absolute;
+
+
+    
+}
+
+ /* quote tekst*/ 
+
+#kader-1 {
+
+    background: #DEDEDE;
+    z-index: 1;
+}
+
+#kader-2 {
+    background: #c7c7c7;
+    z-index: 0;
+    margin-top: 35px;
+}
+
+.quote-text {
+    width: 650px;
+    
+    margin: 0 auto; 
+    margin-top: 96px;   
+}
+
+ /* artikel grid */ 
+
+.artikel-grid {
+
+    width: 1260px;
+    height: 1079px;
+    margin:0 auto; 
+    margin-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+
+}
+.artikel-vak {
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+     background: #D9D9D9;
+}
+
+#type-artikel-vlak-1 {
+    width: 800px;
+   height: 500px;
+   background-image: url("../asset/gloeilamp.jpg");
+   background-size: cover;
+ 
+}
+.tekst-artikel-vak {
+    width: 400px;
+    height: 139px;
+    border-radius: 0px 0px 50px 50px;
+    background: #5594B9;
+    margin-top: 90%;
+    
+}
+#tekst-artikel-vak-2 {
+    width: 268px;
+    height: 500px;
+    border-radius: 50px 0px 0px 50px;
+    background: #5594B9;
+
+}
+.artikel-vak-titel {
+    width: 301px;
+   
+    margin: 0 auto; 
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #FFF;
+   font-size: 20px;
+   font-style: italic;
+   
+
+
+
+} 
+#artikel-title-vak-groot {
+
+
+    margin-left: 40px;
+    width: 226px;
+    height: 101px;
+    font-size: 26px;
+}
+.artikel-vak-paragraaf {
+    
+    
+    margin: 0 auto; 
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+
+    color: #FFF;
+
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+
+   
+    padding-top: 10px;
+}
+#artikel-p-1 {
+    width: 301px;
+    height: 50px;
+    
+}
+#artikel-p-2 {
+    width: 301px;
+    height: 50px;
+    padding-top: 0px;
+
+}
+#artikel-p-3{
+    width: 291px;
+    height: 50px;
+}
+#artikel-p-4 {
+    width: 301px;
+    height: 67px;
+    padding-top: 0px;
+ 
+} 
+#artikel-p-5 {
+    width: 176px;
+    height: 208px;
+    font-size: 20px;
+ 
+} 
+#artikel-p-6 {
+    
+    width: 176px;
+ 
+    font-size: 20px;
+
+    padding-top: 50px;
+  
+} 
+
+ /* artikelgallerij */ 
+
+
+
+.zoek-je-artikel {
+
+    width: 400px;
+    height: 60px;
+    
+    
+    margin: 0 auto;
+    margin-top: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+    color: #000;
+    
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  
+}
+.zoekbalk-kader-2{
+    width: 823px;
+  height: 100px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 28px;
+  display: flex;
+
+}
+.zoekbalk-2 {
+    width: 750px;
+    height: 100px;
+    border-radius: 50px;
+    background: #D9D9D9;
+
+}
+.zoek-logo-2 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color:  #D9D9D9;
+    margin-top:10px; 
+
+
+}
+.main-gallerij-kader { 
+    width: 1208px;
+     height: 454px;
+    flex-shrink: 0;
+    margin:0 auto; 
+    margin-top: 59px;
+    display: flex;
+}
+
+
+.artikel-gallerij {
+    width: 1120px;
+    display: flex;
+    height: 433px;
+    flex-wrap: wrap;
+    gap: 10px 30px; 
+}
+.artikel-gallerij-kader{
+    width: 200px;
+   height: 200px;
+   background: #D9D9D9;
+
+}
+.schuif {
+    width: 42px;
+   height: 454px;
+   border-radius: 50px;
+   margin-left: 44px;
+   background: #D9D9D9;
+
+}
+
+
+ /* abonneer box */ 
+
+.abboneer-box {  
+    margin: 0 auto;
+  width: 962px;
+  height: 618px;
+  margin-top: 266px;
+
+}
+.abbonneer-livelove-box {
+    width: 215px;
+   height: 171px;
+
+}
+.livelove-tekst {
+    width: 250px;
+   height: 50px;
+   margin-top: 12px;
+   
+   display: flex;
+
+   flex-direction: column;
+   justify-content: center;
+
+
+
+
+   color: #FFF;
+   font-size: 50px;
+}
+#live {
+    opacity: 1;
+
+}
+#love{
+    opacity: 0.7;
+
+}
+#read{
+    opacity: 0.4;
+
+}
+.abboneer-knop {
+    width: 730px;
+    height: 115px;
+     background-color: #003554;
+     margin: 0 auto;
+     margin-top: 17px; 
+     border-radius: 30px;
+
+
+
+     
+     color: #FFF;
+     text-align: center;
+     font-size: 80px;
+ 
+}
+.klik-op-deze-link {
+    width: 900px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 20px; 
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #000;
+    font-size: 30px;
+    
+}
+
+
+
+
+
+ /* footer */ 
+
+footer {
+
+    background-color:  #051923;
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 100px; 
+    margin-top: 386px;
+   
+
+
+
+}
+.logo-box {
+    display: flex;
+    width: 1495px;
+   height: 101px;
+   margin: 0 auto; 
+   justify-content: center;
+   align-items: center;
+ 
+
+
+}
+.flex-box-logos-footer{
+    width: 359px;
+    height: 100px;
+    margin:0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px; 
+
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+    background: #D9D9D9;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+/* abonneer pagina styling */
+
+
+
+.abboneer-box-2 {
+    width: 817px;
+    height: 129px;
+    border-radius: 30px;
+
+    background: #003554;
+    margin: 0 auto;
+    margin-top: 405px; 
+
+
+}
+.aboneer-link { 
+    color: #FFF;
+    text-align: center;
+    font-size: 96px;
+    letter-spacing: 6.24px;
+}
+.keuze-menu-box {
+    width: 1293px;
+    height: 646px;
+    margin: 0 auto;
+    margin-top: 65px; 
+    display: flex;
+    gap: 48px; 
+
+
+}
+.keuze-outline {
+    width: 400px;
+    height: 648px;
+    position: relative;
+   
+    
+}
+.keuze-box {
+
+    width: 400px;
+    height: 600px;
+    border-radius: 30px 30px 0px 0px;
+    background: #5594B9;
+    position: absolute;
+    z-index: 2;
+  
+
+}
+.keuze-bg-box {
+
+    border-radius: 30px;
+    background: #006494;
+    width: 400px;
+    height: 650px;
+    position: absolute;
+    z-index: 1;
+  
+
+}
+.keuze-titel {
+
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 37px; 
+
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+ 
+}
+.keuze-paragraaf-box {
+
+   
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 72px; 
+
+
+    color: #FFF;
+    font-size: 23px;
+    letter-spacing: 2.4px;
+
+}
+.keuze-flex-con {
+
+    width: 310px;
+    height: 67px;
+    margin: 0 auto;
+    margin-top: 78px; 
+    display: flex;
+
+}
+.geld {
+    width: 176px;
+    height: 57px;
+    margin: 0 auto;
+
+    color: #FFF;
+    font-size: 25px;
+}
+.inschrijven  {
+
+    width: 150px;
+    height: 53px;
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+
+
+/* artikel pagina */
+
+ /* inleiding */ 
+
+ .op-de-designpapers {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+
+ }
+
+
+.inleiding-flex-box { 
+    width: 1116px;
+    height: 595px;
+    margin: 0 auto;
+    margin-top: 53px; 
+    position: relative;
+
+
+
+
+
+
+
+
+}
+.inleiding-box { 
+    width: 1092px;
+    height: 564px;
+    border-radius: 40px;
+     background: #D9D9D9;
+     position: absolute;
+     z-index: 2;
+     left: 10px;
+
+    
+
+
+}
+.inleiding-tekst {
+    width: 800px;
+  margin: 0 auto;
+  margin-top: 100px; 
+  padding-top: 40px;
+
+  font-size: 26px;
+  letter-spacing: 1.95px;
+
+
+}
+
+
+.inleiding-background-box {
+
+    width: 1092px;
+    height: 564px;
+    border-radius: 40px;
+    background: #AEAEAE;
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+    margin-top: 35px;
+     
+}
+  
+ /* artikel box - artikel pagina */ 
+
+
+.foto-box-normal-size-no-hover {
+    width: 500px;
+     height: 500px;
+     background-color: #D9D9D9;
+}
+
+
+.text-kader-3 {
+
+    width: 800px;
+    height: 600px;
+    margin: 0 auto; 
+
+
+}
+
+.text-box-3 {
+      
+    width: 800px;
+    margin: 0 auto; 
+    margin-top: 125px;
+    
+
+
+
+    color: #000;
+    font-size: 24px;
+
+
+}
+.artikel-kader-zijkant-tekst{
+
+    width: 1254px;
+    height: 603px;
+    background: #D9D9D9;
+    margin-top: 200px;
+
+
+
+}
+
+
+
+
+ /* interview  */ 
+
+
+
+.interview-quote-bg {
+
+    width: 100%;
+    height: 838px;
+    background: #006494;
+    margin-top: 500px; 
+    position: relative;
+
+
+    background-image: url("../asset/interviewbg.png");
+    background-size: cover;
+
+  
+
+
+}
+
+.interview-tekst {
+
+    width: 1064px;
+    height: 351px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+
+    color: #ffffff;
+    text-align: left;
+
+    
+
+
+}
+.interviewer-naam {
+    width: 288px;
+    height: 90px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+
+    color: #FFF;
+    font-size: 45px;
+
+
+}
+.artikel-kader-3D-printing {
+
+
+    width: 1260px;
+   
+    margin: 0 auto; 
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+
+}
+.artikel-3D-tekst-kader {
+
+    width: 460px;
+   height: 600px;
+   border-radius: 30px 0px 0px 30px;
+   background: #5594B9;
+
+
+
+}
+.bg-3D-tekst-kader {
+    width: 300px;
+    height: 550px;
+    margin: 0 auto; 
+    margin-top: 100px; 
+
+    color: #FFF;
+    font-size: 24px;
+ 
+
+
+
+
+}
+#versie-2-tekst-kader-3D {
+    border-radius: 0px 30px 30px 0px;
+
+
+
+}
+.artikel-3D-foto {
+
+    width: 800px;
+    height: 600px;
+    background-color: lightgrey;
+
+
+}
+
+
+.mini-gallerij-bg-box {
+    width: 1042px;
+    height: 1048px;
+
+    margin: 0 auto; 
+    margin-top: 497px; 
+    display:  flex; 
+    flex-wrap: wrap;
+    gap:37px; 
+
+}
+.foto-mini-gallerij {
+    width: 500px;
+   height: 500px;
+   background-color: lightgrey;
+
+
+
+}
+.conclusie-tekst {
+
+    width: 800px;
+    margin: 0 auto; 
+    margin-top: 100px; 
+
+
+
+    color: #000;
+    font-size: 26px;
+
+    
+
+
+
+
+}
+
+.biografie-titel {
+
+    width: 600px;
+
+    margin: 0 auto; 
+    margin-top: 200px ;
+    padding-bottom: 10px;
+   
+   
+    font-size: 40px;
+    text-align: center;
+
+
+
+}
+
+
+.biografie-bg {
+
+    width: 1000px;
+    height: 579px;
+    margin: 0 auto; 
+ border-radius: 70px;
+    background: #D9D9D9;
+
+}
+.biografie-appa-tekst {
+
+    width: 850px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 20px;
+
+}
+
+
+a:hover, .abboneer-knop:hover, .artikel-vak:hover, .foto-box-normal-size:hover, .footer-logo:hover {
+    transform: scale(1.02);
+
+
+}
+
+
+
+
+
+
+
+
+/* fotos */ 
+
+#foto-trui-zonder-hoofd {background-image: url("../asset/trui-zonder-hoofd.jpg");
+    background-size: cover;
+
+ }
+#foto-future-hoofd{ 
+    background-image: url("../asset/future-hoofd.jpg");
+    background-size: cover;
+   
+
+}
+#foto-schaaltje-fruit {
+     background-image: url("../asset/schaaltje-fruit.jpg");
+    background-size: cover;
+}
+#foto-vrouw-vingers-crossed {
+    background-image: url("../asset/vrouw-vingers-crossed.jpg");
+   background-size: cover;
+}
+#foto-robot-hand{
+    background-image: url("../asset/robot-hand.jpg");
+   background-size: cover;
+
+}
+#foto-wereld-bol{
+    background-image: url("../asset/wereld-bol.jpg");
+   background-size: cover;
+
+}
+
+#foto-plaatje_spaar_varken { 
+    background-image: url("../asset/plaatje_spaar_varken.jpg");
+    background-size: cover;
+ }
+#foto-maan {   
+    background-image: url("../asset/maan.jpg");
+    background-size: cover;
+}
+#foto-AI-hand {
+    background-image: url("../asset/AI-hand.jpg");
+    background-size: cover;
+
+
+}
+#foto-algoritme  {
+    background-image: url("../asset/algoritme-plaatje.jpg");
+    background-size: cover;
+}
+#foto-printer-sync-blauwlicht {
+
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 333px; 
+    
+
+
+       
+ background-image: url("../asset/printer-sync.jpg");
+ background-size: cover;
+
+
+
+}
+
+.rob-nijland-profiel-foto {
+
+    width: 527px;
+    height: 527px;
+    background-color: #FFF;
+    border-radius: 527px;
+     
+  
+    margin: 0 auto; 
+    position: absolute;
+    top: -32%; 
+    right: 32%;
+    
+   
+
+        
+    background-image: url("../asset/rob_nijland.png");
+    background-size: cover;
+
+}
+#foto-3D-printer {
+    background-image: url("../asset/3D-printer.jpg");
+    background-size: cover;
+
+
+
+}
+#foto-kinderen-met-3D-printer {
+    background-image: url("../asset/kinderen-met-3D-printer.jpg");
+    background-size: cover;
+
+
+}
+#foto-Printer-sync {
+
+    background-image: url("../asset/Printer-sync-2.jpg");
+    background-size: cover;
+
+}
+#foto-3D-blokje {
+
+    background-image: url("../asset/3D-blokje.jpg");
+    background-size: cover;
+
+}
+#foto-met-code {
+
+  
+    background-image: url("../asset/foto-met-code.jpg");
+    background-size: cover;
+    
+}
+#foto-met-rollen {
+
+
+      
+    background-image: url("../asset/foto-met-rollen.jpg");
+    background-size: cover;
+    
+}
+.abboneer-img {
+    width: 800px;
+    height: 400px;
+    background-color: #003554;
+    margin:0 auto;
+    gap: 330px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+    background-image: url("../asset/oma-foto.png");
+    background-size: cover;
+  
+    
+}
+/* hero fotos */ 
+
+.hero-image  {
+
+
+    width: auto;
+    height: 600px;
+    background: #8E8E8E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../asset/hero-image-1.png");
+    background-size: cover;
+}
+.hero-image-2 {
+    margin-top:327px; 
+    display: flex;
+    width: auto; 
+    height: 700px;
+   background: #003554;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../asset/poster-foto-maastricht.png");
+    background-size: cover;
+    
+    
+
+
+}
+
+ /* logos */ 
+
+#zoek-logo-2 {
+
+    
+    width: 42px;
+    height: 42px;
+    margin: 0 auto; 
+    margin-top: 17px; 
+    background-image: url("../asset/loupe2.png");
+    background-size: cover;
+
+}
+.footer-logo-box {
+    width: 60px;
+    height: 60px;
+    
+    margin: 0 auto;
+    margin-top: 19px; 
+
+
+    background-image: url("../asset/twitter.png");
+    background-size: cover;
+
+ 
+  
+
+}
+.footer-logo-box1 {
+  width: 60px;
+  height: 60px;
+ 
+  margin: 0 auto;
+  margin-top: 19px; 
+ 
+  background-image: url("../asset/instagram.png");
+  background-size: cover;
+
+
+
+}
+.footer-logo-box2 {
+  width: 60px;
+  height: 60px;
+
+  margin: 0 auto;
+  margin-top: 19px; 
+
+
+
+  background-image: url("../asset/youtube.png");
+  background-size: cover;
+
+
+
+}
